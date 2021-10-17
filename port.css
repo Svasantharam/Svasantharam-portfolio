@@ -425,4 +425,7 @@ a {
         margin-top: 0;
         line-height: 8px;
     }
+    .rock {
+        display: none;
+    }
 }
