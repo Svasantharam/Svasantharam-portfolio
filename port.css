@@ -415,24 +415,24 @@ a {
       overflow-y: scroll;
   }
   .X{
-    width: 70%;
-    font-size: 13px;
+    width: 73%;
+    font-size: 12px;
     margin-top: 20px;
     text-align: center;
     height: 100px;
     line-height: 22px;
   }
   .XII{
-    width: 70%;
-    font-size: 13px;
+    width: 73%;
+    font-size: 12px;
     margin-top: 20px;
     text-align: center;
     height: 100px;
     line-height: 22px;
   }
 .deg {
-    width: 70%;
-    font-size: 13px;
+    width: 73%;
+    font-size: 12px;
     margin-top: 20px;
     text-align: center;
     height: 100px;
@@ -440,12 +440,15 @@ a {
 }
   .X:hover{
       width: 73%;
+      font-size:13px;
   }
   .XII:hover{
     width: 73%;
+      font-size:13px;
   }
   .deg:hover {
     width: 73%;
+      font-size:13px;
   }
   #certs {
       height: 100px;
