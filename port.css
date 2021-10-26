@@ -1,14 +1,14 @@
 html {
-    scroll-behavior:smooth;  
-} 
+    scroll-behavior:smooth;
+}
 body {
-    /* ****************************** */
-    background-color: black;  
-    /* height: 1680px;
-    width: 100%; */
+    background-color: #fbb034;
+    background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+    height: 657px;
+    width: 100%;
     margin: 0;
     background-size: cover;
-}    
+}
 #container {
     color: silver;
 }
@@ -33,33 +33,38 @@ body {
     width: 80%;
     border: 1px solid black;
     background-color: black;
+    box-shadow: 0 10px 10px 0 black;
+    border-radius: 20px;
 }
 .frame {
     height: 200px;
-    width: 160px;
-    border: 1px solid black;
+    width: 200px;
+    border: 3px solid silver;
     margin-left: auto;
     margin-right: auto;
     margin-top: 35px;
     overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0 3px 3px 0 grey
 }
 .dp {
     height: 200px;
-    width: 160px;
+    width: 200px;
 }
 #container {
     display: grid;
     grid-template-columns: auto auto;
     font-family: 'Kurale', serif;
-    background-color: #923cb5;
-    background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%);
+    background-color: #4834d4;
+    background-image: linear-gradient(315deg, #4834d4 0%, #0c0c0c 74%);
 }
 #head1 {
-    font-size: 40px;
-    margin-left: 20px;
+    font-size: 60px;
+    margin-left: 10px;
     width: fit-content;
     height: fit-content;
     color: goldenrod;
+    font-family: 'Philosopher', sans-serif;
 }
 #head2 {
     display: grid;
@@ -104,8 +109,9 @@ body {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    background-color: black;    
+    background-color: black;
     box-shadow: 0 15px 15px 0 black;
+    border-radius: 20px;
 }
 .X{
     height: fit-content;
@@ -167,10 +173,11 @@ li {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    background-color: #000000;    
+    background-color: #000000;
     display: grid;
     grid-template-columns: auto auto auto;
     box-shadow: 0 15px 15px 0 black;
+    border-radius: 20px;
 
 }
 #certs:hover {
@@ -185,10 +192,11 @@ li {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    background-color: black;    
+    background-color: black;
     display: grid;
     grid-template-columns: auto auto auto;
     box-shadow: 0 15px 15px 0 black;
+    border-radius: 20px;
 }
 #tskill {
     height: 120px;
@@ -229,6 +237,7 @@ a {
     display: grid;
     grid-template-columns: auto auto auto;
     background-color: black;
+    border-radius: 20px;
 }
 #pro {
     height: 200px;
@@ -244,12 +253,12 @@ a {
     color: black;
     font-family: 'Kurale', serif;
     text-align: center;
-    font-size: 20px;    
+    font-size: 20px;
 
 }
 #pro:hover {
     background-color: #a40606;
-    background-image: linear-gradient(315deg, #a40606 0%, #d98324 74%);  
+    background-image: linear-gradient(315deg, #a40606 0%, #d98324 74%);
     transition-duration: 1000ms;
     color: silver;
 }
@@ -261,8 +270,9 @@ a {
     font-size: 20px;
     font-family: 'Kurale', serif;
     line-height: 10px;
-    background-color: black;
-    height: 70px;
+    background-color: #4834d4;
+    background-image: linear-gradient(315deg, #4834d4 0%, #0c0c0c 74%);
+    height: 100px;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -278,14 +288,16 @@ a {
 #tit {
     font-size: 25px;
     height: fit-content;
-    font-family: 'Kurale', serif;
+    font-family: 'Philosopher', sans-serif;
     margin-top: 25px;
     color: silver;
-    background-color: #923cb5;
-    background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%);
-    margin-bottom: 5px;
-    width: 80%;
+    background-color: #166d3b;
+    background-image: linear-gradient(147deg, #166d3b 0%, #000000 74%);
+    width: 250px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
 }
 @media (max-width: 370px) {
     body {
