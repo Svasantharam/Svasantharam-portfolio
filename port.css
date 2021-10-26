@@ -14,7 +14,7 @@ body {
 }
 .intro {
     font-family: 'Kurale', serif;
-    width: 100%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -30,7 +30,7 @@ body {
     height: 420px;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 85%;
     border: 1px solid black;
     background-color: black;
     box-shadow: 0 10px 10px 0 black;
@@ -113,25 +113,39 @@ body {
     box-shadow: 0 15px 15px 0 black;
     border-radius: 20px;
 }
-.X{
-    height: fit-content;
+.deg{
+    height: 70px;
     width: 500px;
     border: 1px solid black;
-    margin-left: 50px;
-    margin-top: 20px;
     background-color: black;
     color: silver;
     border: 1px solid silver;
+    margin-top: 15px;
+    margin-left: 50px;
+    line-height: 30px;
+}
+.X{
+    height: 70px;
+    width: 500px;
+    border: 1px solid black;
+    margin-top: 15px;
+    background-color: black;
+    color: silver;
+    border: 1px solid silver;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    line-height: 30px;
 }
 .XII{
-    height: fit-content;
+    height: 70px;
     width: 700px;
     border: 1px solid black;
+    margin-top: 15px;
     margin-left: 50px;
-    margin-top: 20px;
     background-color: black;
     color: silver;
     border: 1px solid silver;
+    line-height: 30px;
 }
 
 li {
@@ -142,18 +156,26 @@ li {
   margin-top: auto;
   margin-bottom: auto;
 }
+.deg:hover {
+    background-color: #cdc1ff;
+    background-image: linear-gradient(316deg, #cdc1ff 0%, #e5d9f2 74%);
+    color: black;
+    width: 800px;
+    transition-duration: 350ms;
+    transition-delay: 100ms;
+}
 .X:hover{
     background-color: #cdc1ff;
     background-image: linear-gradient(316deg, #cdc1ff 0%, #e5d9f2 74%);
     color: black;
-    width: 750px;
+    width: 800px;
     transition-duration: 350ms;
     transition-delay: 100ms;
 }
 .XII:hover{
     background-color: #cdc1ff;
     background-image: linear-gradient(316deg, #cdc1ff 0%, #e5d9f2 74%);
-    width: 750px;
+    width: 800px;
     transition-duration: 350ms;
     transition-delay: 100ms;
     color: #000000;
@@ -300,144 +322,195 @@ a {
     border-radius: 15px;
 }
 @media (max-width: 370px) {
-    body {
-        width: 375px;
-        height: fit-content;
-    }
-    #head1 {
-        font-size: 25px;
-    }
-    #head2 {
-        display: none;
-    }
-    #title {
-        width: 368px;
-        height: 335px;
-    }
-    .dp {
-        height: 140px;
-        width: 100px;
-    }
-    .frame {
-        height: 140px;
-        margin-top: 10px;
-    }
-    .intro {
-        text-align: center; 
-        font-size: 13px;
-    }
-    #tit {
-        font-size: 15px;
-        text-align: center;
-        margin-top: 5px;
-    }
-    #academic {
-        height: fit-content;
-        width: 370;
-        margin-left: 0;
-    }
-    .X{
-        width: 370px;
-        margin-left: 0;
-        margin-top: 0;
-        height: 100px;
-        border: #000000;
-    }
-    .XII{
-        width: 370px;
-        margin-left: 0;
-        margin-top: 0;
-        height: 100px;
-    }
-    
-    li {
+  body {
+      background-color: #fbb034;
+      background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+      margin: 0;
+      background-size: cover;
+  }
+  .intro {
+      font-family: 'Kurale', serif;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
       text-align: center;
-      font-size: 13px;
-    }
-    .X:hover{
-        background-color: #cdc1ff;
-        background-image: linear-gradient(316deg, #cdc1ff 0%, #e5d9f2 74%);
-        color: black;
-        width: 370px;
-        transition-duration: 350ms;
-        transition-delay: 100ms;
-    }
-    .XII:hover{
-        background-color: #cdc1ff;
-        background-image: linear-gradient(316deg, #cdc1ff 0%, #e5d9f2 74%);
-        color: #000000;
-        width: 370px;
-        transition-duration: 350ms;
-        transition-delay: 100ms;
-    }
-    #certs {
-        height: 200px;
-        width: 220px;
-        margin-left: 90px;
-    }
-    #img_container{
-        height: 610px;
-        width: fit-content;
-        border: 1px solid black;
-        display: block;
-    }
-    #certs:hover {
-        height: 200px;
-        width: 220px;  
-    }
-    #tech_skill_container {
-        border: 1px solid black;
-        height: 300px;
-        width: 365px;  
-        display: grid;
-        grid-template-columns: auto auto auto;
-        box-shadow: 0 15px 15px 0 black;
-    }
-    #tskill {
-        height: 40px;
-        margin-top: auto;
-        margin-bottom: auto;
-        width: 40px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    #tskill:hover {
-        box-shadow: 0 10px 10px 0 silver;
-        transition-duration: 100ms;
-    }
-    #text {
-       font-size: 13px;
-    }
-    #pro_container {
-        height: 120px;
-        border: 1px solid black;
-        width: fit-content;
-        display: grid;
-        grid-template-columns: auto auto auto;
-    }
-    #pro {
-        height: 100px;
-        width: 100px;
-        margin-top: 10px;
-        font-size: 11px;    
-        text-align: center;
-    }
-    #pro:hover {
-        background-color: #a40606;
-        background-image: linear-gradient(315deg, #a40606 0%, #d98324 74%);  
-        transition-duration: 1000ms;
-        color: silver;
-    }
-    #pro_text {
-        margin-top: 50px;
-    }
-    #end {
-        font-size: 10px;
-        width: 370;
-        margin-top: 0;
-        line-height: 8px;
-    }
-    .rock {
-        display: none;
-    }
+      font-size: 12px;
+      color: silver;
+  }
+  #title {
+      text-align: center;
+      color: silver;
+      font-size: 25px;
+      font-family: 'Kurale', serif;
+      margin-top: 10px;
+      height: 420px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+      border: 1px solid black;
+      background-color: black;
+      box-shadow: 0 10px 10px 0 black;
+      border-radius: 20px;
+  }
+  .frame {
+      height: 150px;
+      width: 150px;
+      border: 2px solid silver;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;
+      overflow: hidden;
+      border-radius: 50%;
+      box-shadow: 0 3px 3px 0 grey
+  }
+  .dp {
+      height: 150px;
+      width: 150px;
+  }
+  #container {
+      font-family: 'Kurale', serif;
+      background-color: #4834d4;
+      background-image: linear-gradient(315deg, #4834d4 0%, #0c0c0c 74%);
+      height: 40px;
+      box-shadow: 0 10px 10px 0 black;
+  }
+  #head1 {
+      font-size: 17px;
+      margin-left: 0;
+      margin-top: auto;
+      margin-bottom: auto;
+  }
+  #head2 {
+      display: grid;
+      grid-template-columns: auto auto auto auto auto;
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-left: 5px;
+      text-align: center;
+      font-size: 10px;
+      height: fit-content;
+      width: fit-content;
+      column-gap: 5px;
+
+  }
+  .aca:hover{
+      font-size: 12px;
+  }
+  .cert:hover{
+      font-size: 12px;
+  }
+  .con:hover{
+      font-size: 12px;
+  }
+  .pos:hover{
+      font-size: 12px;
+  }
+  .tec:hover{
+      font-size: 12px;
+  }
+  #academic {
+      height: 400px;
+      width: 80%;
+      overflow: hidden;
+      overflow-y: scroll;
+  }
+  .X{
+    width: 70%;
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: center;
+    height: 100px;
+    line-height: 25px;
+  }
+  .XII{
+    width: 70%;
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: center;
+    height: 100px;
+    line-height: 25px;
+  }
+.deg {
+    width: 70%;
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: center;
+    height: 100px;
+    line-height: 23px;
+}
+  .X:hover{
+      width: 73%;
+  }
+  .XII:hover{
+    width: 73%;
+  }
+  .deg:hover {
+    width: 73%;
+  }
+  #certs {
+      height: 100px;
+      width: 100px;
+  }
+  #img_container{
+      height: 350px;
+      display: grid;
+      grid-template-columns: auto auto;
+  }
+  #certs:hover {
+      height: 250px;
+      width: 250px;
+  }
+  #tech_skill_container {
+      border: 1px solid black;
+      height: 300px;
+  }
+  #tskill {
+      height: 80px;
+      margin-top: auto;
+      margin-bottom: auto;
+      width: 80px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  #text {
+      font-size: 10px;
+  }
+  a {
+      text-decoration: none;
+      color: silver;
+  }
+  #pro_container {
+      height: 150px;
+      border: 1px solid black;
+      width: 100%;
+      box-shadow: 0 10px 10px 0 black;
+  }
+  #pro {
+      height: 100px;
+      width: 100px;
+      font-size: 20px;
+
+  }
+  #pro_text {
+      margin-top: 25px;
+      font-size: 15px;
+  }
+  #end {
+
+      font-size: 11px;
+      line-height: 8px;
+      height: 60px;
+      width: 100%;
+      box-shadow: 0 10px 10px 0 black;
+  }
+  .rock {
+      height: 50px;
+      width: 50px;
+      margin-left: 90%;
+  }
+  #tit {
+      font-size: 18px;
+      margin-top: 15px;
+      width: 180px;
+  }
 }
