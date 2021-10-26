@@ -303,8 +303,6 @@ a {
     body {
         width: 375px;
         height: fit-content;
-        background-color: #fbb034;
-        background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
     }
     #head1 {
         font-size: 25px;
