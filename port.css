@@ -287,7 +287,7 @@ a {
     width: 80%;
     text-align: center;
 }
-@media (max-width: 375px) {
+@media (max-width: 370px) {
     body {
         width: 375px;
         height: fit-content;
